@@ -1,0 +1,260 @@
+body{
+	margin:auto;
+	padding: auto;
+	background: gray;
+
+}
+
+.south_box{
+	width:700px;
+	height: 590px; /* 1:1 Aspect Ratio */
+    position: relative;
+	margin: auto;
+	margin-top: 80px;
+    background-color: inherit;
+	background-image: url('../image/kundali_south_bg.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    margin-left: 0px;
+    margin-bottom: : 0px;
+	padding-bottom: : 0px;
+
+	/* padding: 5px;
+	border: 4px solid darkred;	*/
+}
+
+.south_box_cointainer{
+    width: 100%;
+    height: 100%;
+    padding-top: 32px;
+    padding-bottom: 34px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#image{
+	width:100%;
+	height: 100%; /* 1:1 Aspect Ratio */
+}
+
+#result{
+	width:60%;
+	height: 60%;
+}
+.chart_table{
+    width:100%;
+    height: 100%;
+    text-align: center;
+    color:black;
+    border:5px solid darkred;
+    font-size: 16px;
+    font-family: century gothic;
+	font-weight: bold;
+	opacity: 0.6;
+	
+}
+
+.chart_table tr{
+
+}
+
+.chart_table td{
+	border: 2px solid darkred;
+	width:25%;
+	padding:0px;
+}
+
+.chart_table td img{
+	
+	width:40px;
+	
+}
+
+/*-=======North=========*/
+.wrapper_box{
+	
+	padding: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: auto;
+	margin-left: 0px;
+	/*background-color: inherit;
+	background-image: url('../image/paper2.png');
+	background-size: 100% 100%;*/
+
+
+}
+.box_north{
+	background-color: inherit;
+	background-image: url('../image/kundali_bg1.png');
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+	/*padding: 22px;*/
+	padding-bottom: 90px;
+	padding-right: 40px;
+	padding-top:48px;
+	padding-left:38px;
+	width:700px;
+	height: 590px;/* 1:1 Aspect Ratio */
+    position: relative;
+	
+	/* padding: 5px;*/
+		
+}
+
+.image_result{
+	width:50vw;
+	height: 39vw;/* 1:1 Aspect Ratio */
+	margin: auto;
+	
+	border: none;
+}
+.kundli-chart-container {
+
+    width: 99%;
+    position: relative;
+    height: 99%;
+    
+
+    /*border:5px solid red;
+   	box-shadow:0px 0px 10px white;*/
+}
+
+.kundli-chart {
+	height: 100%;
+    width: 100%;
+    position: absolute;
+      
+    
+    overflow: hidden;
+    /*border:2px solid lightblue;*/
+   
+}
+
+    .kundli-chart table {
+        height: 100%;
+        width: 100%;
+       
+
+    }
+
+        .kundli-chart table > tbody > tr > td {
+            height: 5%;
+            width: 5%;
+            padding: 0px;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            font-weight:;
+            font-size:19px;
+            font-family: arial;
+            /*border: 1px solid black;*/
+        }
+
+
+@media (max-width: 480px) {
+    .kundli-container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .kundli-chart table > tbody > tr > td {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 320px) {
+    .kundli-container {
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+    .kundli-chart table > tbody > tr > td {
+        font-size: 74%;
+    }
+}
+
+/*=========================east================================*/
+.first_incline{
+
+    width: 100%;
+    height: 100%;
+    /*background: linear-gradient(to right bottom, black 50%, blue 50%);*/
+    padding:0px; 
+   
+}
+
+.first_incline:after{
+    content:"";
+    position:absolute;
+    border-top:2px solid darkred;
+    width:280px;
+    transform: rotate(-38.3deg);
+    transform-origin: 0% 0%;
+    margin-top: 171px;
+    margin-left: -110px;
+}
+
+.second_incline{
+
+    width: 100%;
+    height: 100%;
+    /*background: linear-gradient(to left bottom, blue 50%, black 50%);*/ 
+    padding: 0px;
+  
+}
+
+.second_incline:after{
+    content:"";
+    position:absolute;
+    border-top:2px solid darkred;
+    width:280px;
+    transform: rotate(-141.7deg);
+    transform-origin: 0% 0%;
+    margin-top: 172px;
+    margin-left: 109px;
+}
+
+.sign_up{
+    
+    color:black;
+    position: absolute;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+
+.sign_down{
+    color:black;
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 50px;
+    font-size: 16px;
+    
+
+}
+
+/*.fourth_incline{
+
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    margin-top: -72.9%;
+    background: linear-gradient(to top right, black 50%, transparent 50%);
+    color:black;
+}*/
+
+/*.second_incline{
+
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top:0px;
+    margin-top: -72.5%;
+    background: linear-gradient(to left top, transparent 50%, transparent 50%);
+    color:black;
+}*/
